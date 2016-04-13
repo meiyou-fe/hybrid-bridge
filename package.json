@@ -2,18 +2,21 @@
   "name": "hybrid-bridge",
   "version": "1.0.0",
   "description": "bridge for hybrid app",
-  "main": "index.js",
+  "main": "./src/bridge.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inickel/hybrid-bridge.git"
+    "url": "git+https://github.com/meiyou-fe/hybrid-bridge.git"
   },
-  "author": "",
+  "author": "inickel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inickel/hybrid-bridge/issues"
+    "url": "https://github.com/meiyou-fe/hybrid-bridge/issues"
   },
-  "homepage": "https://github.com/inickel/hybrid-bridge#readme"
+  "homepage": "https://github.com/meiyou-fe/hybrid-bridge#readme",
+  "dependencies": {
+    "base64": "https://github.com/meiyou-fe/base64.git"
+  }
 }
