@@ -1,9 +1,10 @@
 {
-  "name": "hybrid-bridge",
+  "name": "meiyou-hybrid-bridge",
   "version": "1.0.0",
   "description": "bridge for hybrid app",
-  "main": "./src/bridge.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/meiyou-fe/hybrid-bridge#readme",
   "dependencies": {
-    "base64": "https://github.com/meiyou-fe/base64.git"
+    "meiyou-base64": "git+https://github.com/meiyou-fe/base64.git"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.15"
   }
 }
